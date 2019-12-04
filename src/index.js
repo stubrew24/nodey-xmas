@@ -1,5 +1,6 @@
 const quoteEl = document.getElementById("quote")
 const imgEl = document.getElementById("kitten-img")
+const btnEl = document.getElementById("next-btn")
 
 const fetchQuotes = () => {
   return fetch("https://ron-swanson-quotes.herokuapp.com/v2/quotes")
@@ -12,6 +13,11 @@ const fetchKittens = () => {
     .then(resp => resp.json())
     .then(data => (imgEl.src = data[0].url))
 }
+
+btnEl.addEventListener("click", () => {
+  fetchQuotes()
+  fetchKittens()
+})
 
 const renderQuote = quote => {
   quoteEl.innerText = quote
