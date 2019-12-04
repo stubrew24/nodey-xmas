@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stubrew24/nodey-xmas/issues"
   },
-  "homepage": "https://github.com/stubrew24/nodey-xmas#readme"
+  "homepage": "https://github.com/stubrew24/nodey-xmas#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
