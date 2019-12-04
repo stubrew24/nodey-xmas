@@ -20,6 +20,7 @@ img {
 }
 
 blockquote {
+  text-align: center;
   font-family: "Vidaloka";
   font-style: italic;
   font-size: 3rem;
@@ -27,7 +28,15 @@ blockquote {
 
 blockquote::before {
   font-family: "IM Fell Great Primer", serif;
-
+  text-align: center;
   content: '"';
   font-size: 10rem;
+}
+
+blockquote::after {
+  font-family: "IM Fell Great Primer", serif;
+  text-align: center;
+  content: '"';
+  font-size: 10rem;
+  vertical-align: sub;
 }
