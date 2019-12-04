@@ -1,0 +1,19 @@
+{
+  "name": "nodey-xmas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stubrew24/nodey-xmas.git"
+  },
+  "author": "Stu & Fia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stubrew24/nodey-xmas/issues"
+  },
+  "homepage": "https://github.com/stubrew24/nodey-xmas#readme"
+}
